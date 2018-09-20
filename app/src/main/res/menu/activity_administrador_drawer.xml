@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Categorias" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Productos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Vendedores" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Bonificaciones" />
+        <item
+            android:id="@+id/nav_tasa"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tasa de Bonificaciones" />
+    </group>
+
+    <item android:title="Otros">
+        <menu>
+            <item
+                android:id="@+id/nav_cerrar"
+                android:icon="@drawable/cerrar"
+                android:title="Cerrar sesión" />
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/salir"
+                android:title="Salir" />
+        </menu>
+    </item>
+</menu>
+
